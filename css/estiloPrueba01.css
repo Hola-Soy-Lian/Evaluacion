@@ -254,6 +254,14 @@ input[type="text"]:focus{
     border: 1;
     outline: 0;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:any-link{
+    text-decoration: none;
+    color: white;
+}
 
 .carro{
     height: 14px;
