@@ -1,0 +1,254 @@
+@import url('../../assets/css/fawesome-all.css');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.semiheader{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    align-items: center;
+}
+
+.perfil{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+#perfil{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: red;
+}
+
+#boton{
+    width: 60px;
+    height: 60px;
+    border: 0;
+    background-color: transparent;
+}
+
+.contenedorBuscar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.buscar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px;
+    width: 270px;
+}
+
+input[type="text"]{
+    height: 30px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    background-color: transparent;
+    color: gray;
+}
+
+input[type="text"]:focus{
+    height: 30px;
+    width: 210px;
+    display: flex;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    color: gray;
+}
+
+.logoBuscar{
+    height: 30px;
+    width: 30px;
+}
+
+#imagen{
+    border: none;
+    background-color: transparent;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#productos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    
+}
+.producto1{
+    width: 55px;
+    height: 40px;
+}
+
+.producto2{
+    width: 60px;
+    height: 40px;
+}
+
+.producto3{
+    width: 50px;
+    height: 40px;
+}
+
+#producto1,#producto2,#producto3{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+#titulos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#text1,#text2,#text3{
+    height: 19px;
+    width: 50px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 7px;
+}
+
+.separador{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    color: rgb(124, 124, 124);
+    font-size: 13px;
+}
+
+
+.productoNovedad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#productoNovedad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+
+
+.producto4{
+    height: 150px;
+    width: 300px;
+    background-color: white;
+}
+.producto5{
+    height: 160px;
+    width: 160px;
+    background-color: white;
+    
+}
+
+#producto4,#producto5{
+    background-color:rgb(248, 246, 246) ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 250px;
+    width: 140px;
+    align-items: center;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 10px;
+    
+
+}
+
+.img1{
+    border-radius: 10px;
+    height: 150px;
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px black;
+}
+
+
+#textoNovedad1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+#categoria1{
+    color:rgb(238, 75, 75) ;
+    font-size: 10px;
+}
+#produ1{
+    font-size: 13px;
+}
+#precio1{
+    padding: 5px;
+    color:rgb(138, 138, 138) ;
+    font-size: 9px;
+}
+
+#comprar{
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 15px;
+    height: 25px;
+    width: 90px;
+    border: 1;
+    outline: 0;
+}
+
+.carro{
+    height: 14px;
+    width: 15px;
+    background-color: black;
+}
