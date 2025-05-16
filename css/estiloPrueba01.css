@@ -1,3 +1,4 @@
+/*CSS INDEX*/
 @import url('../../assets/css/fawesome-all.css');
 *{
     box-sizing: border-box;
@@ -23,7 +24,7 @@ header{
 }
 
 .perfil{
-    height: 45opx;
+    height: 45px;
     width: 40px;
 }
 
@@ -31,7 +32,6 @@ header{
     overflow: hidden;
     height: 40px;
     width: 40px;
-    
     border-radius: 50px;
 }
 
@@ -41,6 +41,7 @@ header{
     gap: 10px;
     align-items: center;
     color: red;
+    font-size: 13px;
 }
 
 #boton{
@@ -67,6 +68,15 @@ header{
     width: 270px;
 }
 
+.buscar:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(185, 185, 185);
+    border-radius: 20px;
+    width: 270px;
+}
+
 input[type="text"]{
     height: 30px;
     width: 210px;
@@ -88,8 +98,8 @@ input[type="text"]:focus{
 }
 
 .logoBuscar{
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
 }
 
 #imagen{
@@ -201,7 +211,21 @@ input[type="text"]:focus{
     height: 250px;
     width: 140px;
     align-items: center;
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 0px 0px 10px rgb(122, 122, 122);
+    border-radius: 10px;
+    
+
+}
+
+#producto4:hover,#producto5:hover{
+    background-color:rgb(248, 246, 246) ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 250px;
+    width: 140px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(75, 75, 75);
     border-radius: 10px;
     
 
@@ -215,7 +239,7 @@ input[type="text"]:focus{
     flex-direction: row;
     justify-content: center;
     overflow: hidden;
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 0px 0px 9px rgb(145, 144, 144);
 }
 
 
@@ -251,9 +275,27 @@ input[type="text"]:focus{
     border-radius: 15px;
     height: 25px;
     width: 90px;
-    border: 1;
-    outline: 0;
+    border: none;
+    outline: none;
 }
+
+#comprar:hover{
+    font-size: 13px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 15px;
+    height: 25px;
+    width: 90px;
+    border: none;
+    outline: none;
+}
+
+
 a{
     text-decoration: none;
     color: white;
@@ -266,5 +308,64 @@ a:any-link{
 .carro{
     height: 14px;
     width: 15px;
+    background-color: transparent;
+}
+
+#verMas{
     background-color: black;
+    color: white;
+    height: 35px;
+    width: 150px;
+    font-size: 14px;
+    border-radius: 25px;
+    border: none;
+}
+
+#verMas:hover{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    height: 35px;
+    width: 150px;
+    font-size: 14px;
+    border-radius: 25px;
+    
+}
+
+
+
+.megaMainNovedad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barra{
+    padding: 4px;
+    background-color: black;
+    width: 270px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+}
+
+#botones{
+    background-color: transparent;
+    color: white;
+    height: 65px;
+    width: 65px;
+    font-size: 1px;
+    border: none;
+    outline: none;
+}
+
+.barraMain{
+    padding: 25px;
+}
+
+#botones:hover{
+    background-color: rgb(70, 69, 69);
+    height: 63px;
+    width: 65px;
+    border-radius: 100%;
 }
